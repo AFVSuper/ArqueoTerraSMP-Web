@@ -12,6 +12,7 @@ export function ModCard({ mod }: { mod: PublicModCard }) {
           alt={`Imagen de ${mod.title}`}
           className="aspect-[16/9] min-h-0 border-b border-[var(--line)]"
           label="Portada del mod"
+          gradient = "linear-gradient(180deg, #61b5d1, #081124)"
         />
       </Link>
       <div className="flex flex-1 flex-col p-5 sm:p-6">

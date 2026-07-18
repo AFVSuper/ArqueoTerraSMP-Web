@@ -13,8 +13,9 @@ export default async function ModsPage() {
 
   return (
     <>
-      <section className="relative overflow-hidden bg-[#0a293d] py-16 text-white sm:py-20">
-        <div className="absolute inset-0 opacity-20 [background-image:linear-gradient(rgba(143,216,227,.15)_1px,transparent_1px),linear-gradient(90deg,rgba(143,216,227,.15)_1px,transparent_1px)] [background-size:32px_32px]" />
+      <section className="relative overflow-hidden bg-[#061723] py-16 text-white sm:py-24">
+        <div className="absolute inset-0 -z-0 bg-[radial-gradient(circle_at_30%_50%,rgba(15,145,183,.32),transparent_28rem)]" />
+        <div className="absolute inset-0 opacity-25 [background-image:linear-gradient(rgba(143,216,227,.15)_1px,transparent_1px),linear-gradient(90deg,rgba(143,216,227,.15)_1px,transparent_1px)] [background-size:34px_34px]" />
         <div className="page-wrap relative">
           <span className="inline-flex items-center gap-2 text-xs font-black uppercase tracking-[0.16em] text-[#8fd8e3]">
             <Compass className="size-4" /> Guía del servidor
