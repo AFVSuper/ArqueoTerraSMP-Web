@@ -9,6 +9,7 @@ let database: ReturnType<typeof drizzle<typeof schema>> | null = null;
 
 function resolveDatabasePath() {
   const configuredPath = process.env.DATABASE_PATH ?? ".data/minecraft-guide.db";
+  console.log(configuredPath)
   return path.isAbsolute(configuredPath)
     ? configuredPath
     : path.join(/* turbopackIgnore: true */ process.cwd(), configuredPath);
@@ -165,13 +166,24 @@ function initializeSchema(client: Database.Database) {
 function getSqliteClient() {
   if (!sqliteClient) {
     const databasePath = resolveDatabasePath();
-    mkdirSync(path.dirname(databasePath), { recursive: true });
+
     sqliteClient = new Database(databasePath);
     initializeSchema(sqliteClient);
   }
 
   return sqliteClient;
 }
+
+// function getSqliteClient() {
+//   if (!sqliteClient) {
+//     const databasePath = resolveDatabasePath();
+//     mkdirSync(path.dirname(databasePath), { recursive: true });
+//     sqliteClient = new Database(databasePath);
+//     initializeSchema(sqliteClient);
+//   }
+
+//   return sqliteClient;
+// }
 
 export function getDb() {
   if (!database) {
