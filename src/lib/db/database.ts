@@ -166,7 +166,15 @@ function initializeSchema(client: Database.Database) {
 
 function getSqliteClient() {
   if (!sqliteClient) {
+    console.log("cwd:", process.cwd());
+
     let databasePath = resolveDatabasePath();
+    console.log("databasePath:", databasePath);
+    console.log("exists databasePath:", fs.existsSync(databasePath));
+
+    const vercelPath = path.join("/var/task", ".data", "minecraft-guide.db");
+    console.log("vercelPath:", vercelPath);
+    console.log("exists vercelPath:", fs.existsSync(vercelPath));
 
     // If the configured path doesn't exist, try the Vercel deployment bundle.
     if (!fs.existsSync(databasePath)) {
