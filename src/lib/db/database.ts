@@ -3,6 +3,7 @@ import { drizzle } from "drizzle-orm/better-sqlite3";
 import { mkdirSync } from "node:fs";
 import path from "node:path";
 import * as schema from "./schema";
+import fs from "fs";
 
 let sqliteClient: Database.Database | null = null;
 let database: ReturnType<typeof drizzle<typeof schema>> | null = null;
