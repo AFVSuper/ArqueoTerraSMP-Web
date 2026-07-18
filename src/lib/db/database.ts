@@ -180,6 +180,8 @@ function getSqliteClient() {
       }
     }
 
+    console.log("Opening database:", databasePath);
+    console.log("Exists:", fs.existsSync(databasePath));
     sqliteClient = new Database(databasePath);
     initializeSchema(sqliteClient);
   }
