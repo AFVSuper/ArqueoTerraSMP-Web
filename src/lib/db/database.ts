@@ -165,7 +165,19 @@ function initializeSchema(client: Database.Database) {
 
 function getSqliteClient() {
   if (!sqliteClient) {
-    const databasePath = resolveDatabasePath();
+    let databasePath = resolveDatabasePath();
+
+    // If the configured path doesn't exist, try the Vercel deployment bundle.
+    if (!fs.existsSync(databasePath)) {
+      const vercelPath = path.join("/var/task", ".data", "minecraft-guide.db");
+
+      if (fs.existsSync(vercelPath)) {
+        databasePath = vercelPath;
+      } else {
+        // Local development or first-time setup.
+        mkdirSync(path.dirname(databasePath), { recursive: true });
+      }
+    }
 
     sqliteClient = new Database(databasePath);
     initializeSchema(sqliteClient);
