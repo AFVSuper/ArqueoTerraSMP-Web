@@ -99,7 +99,7 @@ export default async function ItemDetailPage({ params }: ItemPageProps) {
               <dl className="divide-y divide-white/10 text-sm">
                 {/* <div className="py-3"><dt className="text-white/40">Mod</dt><dd className="mt-1 font-bold">{item.modTitle}</dd></div> */}
                 <div className="py-3"><dt className="text-white/40">Categoría</dt><dd className="mt-1 font-bold">{item.tags}</dd></div>
-                <div className="py-3"><dt className="text-white/40">Obtención</dt><dd className="mt-1 font-bold">{item.obtainMethod || "No requiere receta"}</dd></div>
+                {/* <div className="py-3"><dt className="text-white/40">Obtención</dt><dd className="mt-1 font-bold">{item.obtainMethod || "No requiere receta"}</dd></div> */}
                 {item.durability ? <div className="py-3"><dt className="text-white/40">Durabilidad</dt><dd className="mt-1 font-bold">{item.durability ? `${item.durability}` : "Sin durabilidad"}</dd></div> : ""}
               </dl>
             </aside>
