@@ -164,49 +164,49 @@ function initializeSchema(client: Database.Database) {
   }
 }
 
-function getSqliteClient() {
-  if (!sqliteClient) {
-    console.log("cwd:", process.cwd());
-
-    let databasePath = resolveDatabasePath();
-    console.log("databasePath:", databasePath);
-    console.log("exists databasePath:", fs.existsSync(databasePath));
-
-    const vercelPath = path.join("/var/task", ".data", "minecraft-guide.db");
-    console.log("vercelPath:", vercelPath);
-    console.log("exists vercelPath:", fs.existsSync(vercelPath));
-
-    // If the configured path doesn't exist, try the Vercel deployment bundle.
-    if (!fs.existsSync(databasePath)) {
-      const vercelPath = path.join("/var/task", ".data", "minecraft-guide.db");
-
-      if (fs.existsSync(vercelPath)) {
-        databasePath = vercelPath;
-      } else {
-        // Local development or first-time setup.
-        mkdirSync(path.dirname(databasePath), { recursive: true });
-      }
-    }
-
-    console.log("Opening database:", databasePath);
-    console.log("Exists:", fs.existsSync(databasePath));
-    sqliteClient = new Database(databasePath);
-    initializeSchema(sqliteClient);
-  }
-
-  return sqliteClient;
-}
-
 // function getSqliteClient() {
 //   if (!sqliteClient) {
-//     const databasePath = resolveDatabasePath();
-//     mkdirSync(path.dirname(databasePath), { recursive: true });
+//     console.log("cwd:", process.cwd());
+
+//     let databasePath = resolveDatabasePath();
+//     console.log("databasePath:", databasePath);
+//     console.log("exists databasePath:", fs.existsSync(databasePath));
+
+//     const vercelPath = path.join("/var/task", ".data", "minecraft-guide.db");
+//     console.log("vercelPath:", vercelPath);
+//     console.log("exists vercelPath:", fs.existsSync(vercelPath));
+
+//     // If the configured path doesn't exist, try the Vercel deployment bundle.
+//     if (!fs.existsSync(databasePath)) {
+//       const vercelPath = path.join("/var/task", ".data", "minecraft-guide.db");
+
+//       if (fs.existsSync(vercelPath)) {
+//         databasePath = vercelPath;
+//       } else {
+//         // Local development or first-time setup.
+//         mkdirSync(path.dirname(databasePath), { recursive: true });
+//       }
+//     }
+
+//     console.log("Opening database:", databasePath);
+//     console.log("Exists:", fs.existsSync(databasePath));
 //     sqliteClient = new Database(databasePath);
 //     initializeSchema(sqliteClient);
 //   }
 
 //   return sqliteClient;
 // }
+
+function getSqliteClient() {
+  if (!sqliteClient) {
+    const databasePath = resolveDatabasePath();
+    mkdirSync(path.dirname(databasePath), { recursive: true });
+    sqliteClient = new Database(databasePath);
+    initializeSchema(sqliteClient);
+  }
+
+  return sqliteClient;
+}
 
 export function getDb() {
   if (!database) {
