@@ -1,2 +1,2 @@
 import "server-only";
-export { getDb, getRawDatabase } from "./database";
+export { getDb } from "./database";
