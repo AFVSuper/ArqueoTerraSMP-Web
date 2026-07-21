@@ -151,7 +151,7 @@ export default async function ItemDetailPage({ params }: ItemPageProps) {
             
                 <div className="mt-7 grid gap-4 sm:grid-cols-2 lg:grid-cols-2">
                   {item.relatedItems.map((related) => (
-                    <article className="card-reveal group grid gap-5 overflow-hidden border border-[var(--line)] bg-white shadow-[0_12px_35px_var(--shadow)] transition duration-300 hover:border-[#0f91b7]/50 hover:shadow-[5px_5px_0_#d5dfdc] sm:grid-cols-[140px_1fr]">
+                    <article key={related.id} className="card-reveal group grid gap-5 overflow-hidden border border-[var(--line)] bg-white shadow-[0_12px_35px_var(--shadow)] transition duration-300 hover:border-[#0f91b7]/50 hover:shadow-[5px_5px_0_#d5dfdc] sm:grid-cols-[140px_1fr]">
                     <MediaFrame
                       src={related.image}
                       alt={`Imagen de ${related.name}`}
