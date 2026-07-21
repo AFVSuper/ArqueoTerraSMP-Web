@@ -7,17 +7,39 @@ INSERT INTO "crafting_recipes" ("id", "item_id", "title", "station", "inputs", "
     (5, 293, 'Crafteo de Imán', 'Mesa de Crafteo', '[{"name":"Nothing","quantity":1}]', 'Imán', 1, '', '/images/arqueoterra/recipes/recipe_magnet.png', 'published', 1784235902609, 1784373915536),
     (6, 294, 'Crafteo de Ídolo del Vacío', 'Mesa de Crafteo', '[{"name":"Nothing","quantity":1}]', 'Ídolo del Vacío', 1, '', '/images/arqueoterra/recipes/recipe_void_idol.png', 'published', 1784235902612, 1784376103888),
     (7, 300, 'Crafteo de Recipiente de amuleto', 'Receta visual', '[]', 'Recipiente de amuleto', 1, 'Crafteo mostrado en la guía oficial.', '/images/arqueoterra/docs/r2fmngmlpx4a.png', 'published', 1784235902613, 1784235902613),
-    (8, 301, 'Crafteo de Amuleto del prospector', 'Receta visual', '[]', 'Amuleto del prospector', 1, 'Crafteo mostrado en la guía oficial.', '/images/arqueoterra/docs/i4g6bqrzajdv.png', 'published', 1784235902614, 1784235902614),
-    (9, 302, 'Crafteo de Amuleto de saqueador', 'Receta visual', '[]', 'Amuleto de saqueador', 1, 'Crafteo mostrado en la guía oficial.', '/images/arqueoterra/docs/5x01u4uiuvcb.png', 'published', 1784235902615, 1784235902615),
-    (10, 303, 'Crafteo de Amuleto de fundición', 'Receta visual', '[]', 'Amuleto de fundición', 1, 'Crafteo mostrado en la guía oficial.', '/images/arqueoterra/docs/d2z38el4v5me.png', 'published', 1784235902615, 1784235902616),
-    (11, 304, 'Crafteo de Amuleto de alquimista', 'Receta visual', '[]', 'Amuleto de alquimista', 1, 'Crafteo mostrado en la guía oficial.', '/images/arqueoterra/docs/5nz6gxn6b752.png', 'published', 1784235902616, 1784235902616),
-    (12, 305, 'Crafteo de Amuleto del forjador', 'Receta visual', '[]', 'Amuleto del forjador', 1, 'Crafteo mostrado en la guía oficial.', '/images/arqueoterra/docs/nmspjf2did63.png', 'published', 1784235902617, 1784235902617),
-    (13, 306, 'Crafteo de Diseño de armadura vacío', 'Receta visual', '[]', 'Diseño de armadura vacío', 1, 'Crafteo mostrado en la guía oficial.', '/images/arqueoterra/docs/ruh0nyfm1zv6.png', 'published', 1784235902617, 1784235902618),
-    (14, 307, 'Crafteo de Tinta invisible', 'Receta visual', '[]', 'Tinta invisible', 1, 'Crafteo mostrado en la guía oficial.', '/images/arqueoterra/docs/ye4miae6cksu.png', 'published', 1784235902618, 1784235902618),
-    (15, 308, 'Crafteo de Tarjeta de modelo', 'Receta visual', '[]', 'Tarjeta de modelo', 1, 'Crafteo mostrado en la guía oficial.', '/images/arqueoterra/docs/q70fkojddqcv.png', 'published', 1784235902619, 1784235902619),
-    (16, 310, 'Crafteo de Tridente vendaval', 'Receta visual', '[]', 'Tridente vendaval', 1, 'Crafteo mostrado en la guía oficial.', '/images/arqueoterra/docs/df4ucsioslbx.png', 'published', 1784235902619, 1784235902619),
-    (17, 312, 'Crafteo de Núcleo de luminis', 'Receta visual', '[]', 'Núcleo de luminis', 1, 'Crafteo mostrado en la guía oficial.', '/images/arqueoterra/docs/ueoh8j28iavg.png', 'published', 1784235902620, 1784235902620),
-    (18, 368, 'Bolsa de Polvo', 'Mesa de Crafteo', '[{"name":"Nothing","quantity":1}]', 'Bolsa de Polvo', 1, 'Cualquier polvo es válido en la receta.', '/images/arqueoterra/recipes/recipe_ore_satchel.png', 'published', 1784374379957, 1784374379956)
+    (8, 301, 'Crafteo de Amuleto del Prospector', 'Yunque', '[{"name":"a","quantity":1}]', 'Amuleto del prospector', 1, '', '/images/arqueoterra/recipes/recipe_fortune_amulet.png', 'published', 1784235902614, 1784666966773),
+    (9, 302, 'Crafteo de Amuleto del Saqueador', 'Receta visual', '[{"name":"a","quantity":1}]', 'Amuleto de saqueador', 1, '', '/images/arqueoterra/recipes/recipe_looting_amulet.png', 'published', 1784235902615, 1784666983397),
+    (10, 303, 'Crafteo de Amuleto de Fundición', 'Yunque', '[{"name":"nothing","quantity":1}]', 'Amuleto de fundición', 1, '', '/images/arqueoterra/recipes/recipe_smelt_amulet.png', 'published', 1784235902615, 1784666913804),
+    (11, 304, 'Crafteo de Amuleto del Alquimista', 'Yunque', '[{"name":"n","quantity":1}]', 'Amuleto de alquimista', 1, '', '/images/arqueoterra/recipes/recipe_potion_amulet.png', 'published', 1784235902616, 1784666936572),
+    (12, 305, 'Crafteo de Amuleto del Forjador', 'Yunque', '[{"name":"a","quantity":1}]', 'Amuleto del forjador', 1, '', '/images/arqueoterra/recipes/recipe_forge_amulet.png', 'published', 1784235902617, 1784666952355),
+    (13, 306, 'Crafteo de Diseño de armadura vacío', 'Mesa de Crafteo', '[{"name":"a","quantity":1}]', 'Diseño de armadura vacío', 1, '', '/images/arqueoterra/recipes/recipe_empty_trim.png', 'published', 1784235902617, 1784667401848),
+    (14, 307, 'Crafteo de Tinta Invisible', 'Brewing Stand', '[{"name":"nothing","quantity":1}]', 'Tinta invisible', 1, 'Las pociones de entrada son cualquier Invisibilidad.', '/images/arqueoterra/recipes/recipe_invis_ink.png', 'published', 1784235902618, 1784619082003),
+    (15, 308, 'Crafteo de Tarjeta de Modelo', 'Mesa de Crafteo', '[{"name":"a","quantity":1}]', 'Tarjeta de modelo', 1, '', '/images/arqueoterra/recipes/recipe_model_card.png', 'published', 1784235902619, 1784667537576),
+    (16, 310, 'Crafteo de Tridente Vendaval', 'Mesa de Herrería', '[{"name":"a","quantity":1}]', 'Tridente vendaval', 1, '', '/images/arqueoterra/recipes/recipe_wind_trident.png', 'published', 1784235902619, 1784667101331),
+    (17, 312, 'Crafteo de Núcleo de Luminis', 'Mesa de Crafteo', '[{"name":"a","quantity":1}]', 'Núcleo de luminis', 1, '', '/images/arqueoterra/recipes/recipe_luminis_core.png', 'published', 1784235902620, 1784667177287),
+    (18, 368, 'Bolsa de Polvo', 'Mesa de Crafteo', '[{"name":"Nothing","quantity":1}]', 'Bolsa de Polvo', 1, 'Cualquier polvo es válido en la receta.', '/images/arqueoterra/recipes/recipe_ore_satchel.png', 'published', 1784374379957, 1784374379956),
+    (19, 307, 'Uso de la Tinta Invisible', 'Yunque', '[{"name":"nothing","quantity":1}]', 'Armadura Invisible', 1, '', '/images/arqueoterra/recipes/recipe_invis_ink_use.png', 'published', 1784666651732, 1784666883601),
+    (20, 313, 'Crafteo de Casco de Luminis', 'Mesa de Herrería', '[{"name":"a","quantity":1}]', 'Casco de Luminis', 1, '', '/images/arqueoterra/recipes/recipe_luminis_helmet.png', 'published', 1784667227636, 1784667227635),
+    (21, 313, 'Crafteo de Pechera de Luminis', 'Mesa de Herrería', '[{"name":"a","quantity":1}]', 'Pechera de Luminis', 1, '', '/images/arqueoterra/recipes/recipe_luminis_chestplate.png', 'published', 1784667265387, 1784667265387),
+    (22, 313, 'Crafteo de Perneras de Luminis', 'Mesa de Herrería', '[{"name":"a","quantity":1}]', 'Perneras de Luminis', 1, '', '/images/arqueoterra/recipes/recipe_luminis_leggings.png', 'published', 1784667307582, 1784667307581),
+    (23, 313, 'Crafteo de Botas de Luminis', 'Mesa de Herrería', '[{"name":"a","quantity":1}]', 'Botas de Luminis', 1, '', '/images/arqueoterra/recipes/recipe_luminis_boots.png', 'published', 1784667333352, 1784667333352),
+    (24, 306, 'Uso del Diseño de armadura vacío', 'Mesa de Herrería', '[{"name":"a","quantity":1}]', 'Untrimmed Armor', 1, '', '/images/arqueoterra/recipes/recipe_remove_trim.png', 'published', 1784667481278, 1784667481277),
+    (25, 382, 'Poción de Haste', 'Brewing Stand', '[{"name":"a","quantity":1}]', 'Poción de Haste', 1, 'Las pociones de entrada son Awkward Potions.
+
+La poción de Haste tiene versión Extendida y Ampliada.', '/images/arqueoterra/recipes/recipe_haste.png', 'published', 1784668172670, 1784668650452),
+    (26, 382, 'Poción de Nausea', 'Brewing Stand', '[{"name":"a","quantity":1}]', 'Poción de Nausea', 1, 'Las pociones de entrada son Apnea (sin mejoras). La poción de Nausea no admite mejoras.', '/images/arqueoterra/recipes/recipe_nausea.png', 'published', 1784668437385, 1784668643398),
+    (27, 382, 'Poción de Wither', 'Brewing Stand', '[{"name":"a","quantity":1}]', 'Poción de Wither', 1, 'Las pociones de entrada son Awkward Potions.
+
+La poción de Wither no admite mejoras.', '/images/arqueoterra/recipes/recipe_wither.png', 'published', 1784668500301, 1784668500301),
+    (28, 382, 'Poción de Ceguera', 'Brewing Stand', '[{"name":"a","quantity":1}]', 'Poción de Ceguera', 1, 'Las pociones de entrada son Visión Nocturna (sin mejoras).
+
+La poción de Ceguera no admite mejoras.', '/images/arqueoterra/recipes/recipe_blindness.png', 'published', 1784668545580, 1784668545580),
+    (29, 382, 'Poción de Oxidación', 'Brewing Stand', '[{"name":"a","quantity":1}]', 'Poción de Oxidación', 1, 'Las pociones de entrada son Debilidad (normal o extendida).
+
+La poción de Oxidación tiene versión Extendida.', '/images/arqueoterra/recipes/recipe_oxidation.png', 'published', 1784668632878, 1784668632878),
+    (30, 382, 'Poción de Disrupción', 'Brewing Stand', '[{"name":"a","quantity":1}]', 'Poción de Disrupción', 1, 'Las pociones de entrada son Daño Instantáneo II.
+
+La poción de Disrupción tiene versión Extendida.', '/images/arqueoterra/recipes/recipe_disruption.png', 'published', 1784668704443, 1784668704443)
 ON CONFLICT DO NOTHING;
 
 INSERT INTO "faq_entries" ("id", "question", "answer", "category", "status", "sort_order", "created_at", "updated_at") VALUES
@@ -54,18 +76,82 @@ INSERT INTO "installation_sections" ("id", "title", "intro", "body", "steps", "i
 ON CONFLICT DO NOTHING;
 
 INSERT INTO "item_relations" ("item_id", "related_item_id") VALUES
-    (297, 303),
     (295, 301),
-    (296, 302)
+    (296, 302),
+    (378, 368),
+    (297, 303),
+    (298, 304),
+    (299, 305),
+    (300, 304),
+    (300, 303),
+    (300, 302),
+    (300, 305),
+    (300, 301),
+    (309, 310),
+    (310, 309),
+    (312, 313),
+    (313, 312),
+    (379, 356),
+    (356, 379),
+    (301, 295),
+    (301, 380),
+    (301, 300),
+    (302, 380),
+    (302, 300),
+    (302, 296),
+    (303, 297),
+    (303, 380),
+    (303, 300),
+    (304, 298),
+    (304, 380),
+    (304, 300),
+    (305, 380),
+    (305, 299),
+    (305, 300),
+    (319, 320),
+    (319, 322),
+    (319, 324),
+    (319, 327),
+    (319, 325),
+    (319, 326),
+    (319, 321),
+    (319, 323),
+    (320, 319),
+    (321, 319),
+    (322, 319),
+    (323, 319),
+    (324, 319),
+    (325, 319),
+    (326, 319),
+    (327, 319)
 ON CONFLICT DO NOTHING;
 
 INSERT INTO "item_tags" ("item_id", "tag_id") VALUES
+    (368, 58),
+    (293, 23),
+    (295, 23),
+    (294, 23),
+    (296, 23),
+    (378, 58),
+    (297, 23),
+    (298, 23),
+    (299, 23),
+    (300, 23),
+    (307, 23),
+    (306, 23),
+    (309, 23),
+    (310, 23),
+    (312, 23),
     (313, 23),
-    (314, 23),
-    (315, 23),
-    (316, 23),
-    (317, 23),
-    (318, 23),
+    (379, 41),
+    (356, 41),
+    (308, 41),
+    (380, 41),
+    (301, 23),
+    (302, 23),
+    (303, 23),
+    (304, 23),
+    (305, 23),
     (319, 24),
     (320, 24),
     (321, 24),
@@ -75,75 +161,8 @@ INSERT INTO "item_tags" ("item_id", "tag_id") VALUES
     (325, 24),
     (326, 24),
     (327, 24),
-    (328, 24),
-    (329, 24),
-    (330, 24),
-    (331, 24),
-    (332, 24),
-    (333, 24),
-    (334, 24),
-    (335, 24),
-    (336, 24),
-    (337, 24),
-    (338, 24),
-    (339, 24),
-    (340, 24),
-    (341, 24),
-    (342, 24),
-    (343, 24),
-    (344, 24),
-    (345, 24),
-    (346, 24),
-    (347, 24),
-    (348, 24),
-    (349, 24),
-    (350, 24),
-    (351, 24),
-    (352, 25),
-    (353, 25),
-    (354, 25),
-    (355, 25),
-    (357, 25),
-    (358, 25),
-    (359, 25),
-    (360, 25),
-    (361, 25),
-    (362, 25),
-    (363, 25),
-    (364, 25),
-    (365, 25),
-    (366, 25),
-    (367, 25),
-    (369, 26),
-    (370, 26),
-    (371, 26),
-    (372, 26),
-    (373, 26),
-    (374, 26),
-    (375, 26),
-    (376, 26),
-    (377, 26),
-    (297, 23),
-    (310, 23),
-    (309, 23),
-    (356, 41),
-    (298, 23),
-    (299, 23),
-    (301, 23),
-    (302, 23),
-    (303, 23),
-    (304, 23),
-    (305, 23),
-    (306, 23),
-    (307, 23),
-    (308, 23),
-    (312, 23),
-    (300, 23),
-    (368, 58),
-    (293, 23),
-    (295, 23),
-    (294, 23),
-    (296, 23)
+    (381, 41),
+    (382, 41)
 ON CONFLICT DO NOTHING;
 
 INSERT INTO "items" ("id", "mod_id", "slug", "name", "summary", "description", "function_description", "durability", "stats", "how_to_obtain", "uses", "tips", "image", "gallery", "status", "sort_order", "created_at", "updated_at", "requirements") VALUES
@@ -165,86 +184,182 @@ Se puede utilizar para crear el Amuleto del Prospector.', '', NULL, '{}', 'Minan
     (296, 8, 'items-principales-05', 'Tesoro de Bastión', 'Ingrediente que puede aparecer en cofres de bastiones.', 'Un ítem que puedes encontrar en bastiones. 
 
 Es el ingrediente principal del Amuleto del Saqueador.', '', NULL, '{}', 'Tiene una probabilidad de aparecer en los cofres de bastiones.', 'Fabricación del Amuleto del Saqueador.', '', '/images/arqueoterra/items/bastion_treasure.png', '[]', 'published', 4, 1784235902593, 1784376381514, ''),
-    (297, 8, 'items-principales-06', 'Corazón flamígero', 'Coleccionable que puede aparecer en fortalezas del Nether.', 'Un ítem coleccionable que puedes encontrar en fortalezas del Nether.', 'Objeto decorativo y componente para amuletos.', NULL, '{}', 'Tiene una probabilidad de aparecer en los cofres de fortalezas del Nether.', 'Decoración y fabricación de amuletos.', '', '/images/arqueoterra/items/blazing_heart.gif', '[]', 'published', 5, 1784235902593, 1784287705150, 'Encontrar una fortaleza del Nether.'),
-    (298, 8, 'items-principales-07', 'Códice alquímico', 'Coleccionable que puede aparecer en ciudades del End.', 'Un ítem coleccionable que puedes encontrar en ciudades del End.', 'Objeto decorativo y componente para amuletos.', NULL, '{}', 'Tiene una probabilidad de aparecer en los cofres de ciudades del End.', 'Decoración y fabricación de amuletos.', '', '/images/arqueoterra/items/alchemist_tome.png', '["/images/arqueoterra/docs/aueh4cp61nr4.png"]', 'published', 6, 1784235902593, 1784369112538, 'Encontrar una ciudad del End.'),
-    (299, 8, 'items-principales-08', 'Plata élfica', 'Coleccionable que puede aparecer en minas abandonadas.', 'Un ítem coleccionable que puedes encontrar en mineshafts.', 'Objeto decorativo y componente para amuletos.', NULL, '{}', 'Tiene una probabilidad de aparecer en los cofres de mineshafts.', 'Decoración y fabricación de amuletos.', '', '/images/arqueoterra/items/silver_plates.png', '["/images/arqueoterra/docs/k8nmgli9c81g.png"]', 'published', 7, 1784235902593, 1784369132259, 'Encontrar una mina abandonada.'),
-    (300, 8, 'items-principales-09', 'Recipiente de amuleto', 'Base de fabricación para crear amuletos especiales.', 'Un recipiente que sirve como base para crear nuevos tipos de amuletos especiales.', 'Componente de crafteo para amuletos que potencian distintos aspectos del jugador.', NULL, '{}', 'Crafteo mostrado en la documentación oficial.', 'Solo sirve para crear amuletos nuevos.', '', '/images/arqueoterra/items/empty_amulet.png', '["/images/arqueoterra/items/empty_amulet.png"]', 'published', 8, 1784235902593, 1784369548881, 'Ninguno.'),
-    (301, 8, 'items-principales-10', 'Amuleto del prospector', 'Amuleto que añade un nivel extra de Fortuna.', 'Uno de los cinco tipos de amuletos que potencian tu nivel de Fortuna.', 'Al ponerlo en la mano secundaria, aumenta en un nivel el encantamiento de Fortuna.', NULL, '{}', 'Se crea únicamente en yunques.', '', '', '/images/arqueoterra/items/fortune_amulet.png', '["/images/arqueoterra/docs/i4g6bqrzajdv.png"]', 'published', 9, 1784235902593, 1784369162138, 'Tenerlo en la mano secundaria.'),
-    (302, 8, 'items-principales-11', 'Amuleto de saqueador', 'Amuleto que añade un nivel extra de Saqueo.', 'Uno de los cinco tipos de amuletos que potencian tu nivel de Saqueo.', 'Al ponerlo en la mano secundaria, aumenta en un nivel el encantamiento de Saqueo.', NULL, '{}', 'Se crea únicamente en yunques.', '', '', '/images/arqueoterra/items/looting_amulet.png', '["/images/arqueoterra/docs/5x01u4uiuvcb.png"]', 'published', 10, 1784235902593, 1784369174679, 'Tenerlo en la mano secundaria.'),
-    (303, 8, 'items-principales-12', 'Amuleto de fundición', 'Amuleto que funde automáticamente materiales obtenidos.', 'Uno de los cinco tipos de amuletos que funde bloques minados y objetos de mobs.', 'Funde automáticamente los ítems obtenidos.', NULL, '{}', 'Se crea únicamente en yunques.', '', '', '/images/arqueoterra/items/smelt_amulet.png', '["/images/arqueoterra/docs/d2z38el4v5me.png"]', 'published', 11, 1784235902593, 1784369192510, 'Tenerlo en la mano secundaria.'),
-    (304, 8, 'items-principales-13', 'Amuleto de alquimista', 'Amuleto que mejora la duración de los efectos.', 'Uno de los cinco tipos de amuletos que incrementa la duración de efectos positivos y reduce la de efectos negativos.', 'Aumenta los efectos positivos y reduce los negativos.', NULL, '{}', 'Se crea únicamente en yunques.', '', '', '/images/arqueoterra/items/potion_amulet.png', '["/images/arqueoterra/docs/5nz6gxn6b752.png"]', 'published', 12, 1784235902593, 1784369205379, 'Tenerlo en la mano secundaria.'),
-    (305, 8, 'items-principales-14', 'Amuleto del forjador', 'Amuleto que reduce el desgaste de herramientas y armadura.', 'Uno de los cinco tipos de amuletos que hace que las herramientas y la armadura sufran menos daño de durabilidad.', 'Aumenta la durabilidad efectiva de herramientas y armaduras.', NULL, '{}', 'Se crea únicamente en yunques.', '', '', '/images/arqueoterra/items/forge_amulet.png', '["/images/arqueoterra/docs/nmspjf2did63.png"]', 'published', 13, 1784235902593, 1784369223483, 'Tenerlo en la mano secundaria.'),
-    (306, 8, 'items-principales-15', 'Diseño de armadura vacío', 'Elimina diseños de armadura aplicados anteriormente.', 'Con este objeto puedes quitar diseños de armadura previos.', 'Elimina los diseños de armadura existentes.', NULL, '{}', '', '', '', '/images/arqueoterra/items/empty_trim_smithing_template.png', '["/images/arqueoterra/docs/xv9l1vm3ao9c.png"]', 'published', 14, 1784235902593, 1784369239824, 'Pedernal y mesa de herrería.'),
-    (307, 8, 'items-principales-16', 'Tinta invisible', 'Tinta capaz de hacer invisibles las armaduras.', 'Una tinta capaz de hacer invisible las armaduras.', 'Aplica invisibilidad visual a las armaduras.', NULL, '{}', '', '', '', '/images/arqueoterra/items/invisible_ink.png', '["/images/arqueoterra/docs/cb993uben6nr.png"]', 'published', 15, 1784235902593, 1784369254094, 'Soporte para pociones.'),
-    (308, 8, 'items-principales-17', 'Tarjeta de modelo', 'Objeto pendiente de documentación oficial.', 'Objeto pendiente de documentación oficial.', '', NULL, '{}', '', '', '', '/images/arqueoterra/items/model_card.png', '["/images/arqueoterra/docs/q70fkojddqcv.png"]', 'published', 16, 1784235902593, 1784369470737, ''),
-    (309, 8, 'items-principales-18', 'Reliquia de viento', 'Material exclusivo de las Trial Chambers.', 'Un ítem exclusivo de las Trial Chambers.', 'Sirve para crear el Tridente vendaval.', NULL, '{}', 'Se obtiene en Trial Chambers.', 'Ingrediente del Tridente vendaval.', '', '/images/arqueoterra/items/wind_relic.gif', '["/images/arqueoterra/docs/l6gv9jy0p1fa.png"]', 'published', 17, 1784235902593, 1784315237962, 'Encontrar una Trial Chamber.'),
-    (310, 8, 'items-principales-19', 'Tridente vendaval', 'Tridente con la habilidad de alejar a los enemigos.', 'Un tridente con la habilidad de empujar lejos a los enemigos.', 'Empuja lejos a los enemigos.', NULL, '{}', '', '', '', '/images/arqueoterra/items/wind_trident.gif', '["/images/arqueoterra/docs/df4ucsioslbx.png"]', 'published', 18, 1784235902593, 1784315224134, 'Reliquia de viento.'),
-    (312, 8, 'items-principales-21', 'Núcleo de Luminis', 'Variante de netherita para fabricar armaduras Luminis.', 'Una variante de la netherita.', 'Se utiliza para crear armaduras de Luminis.', NULL, '{}', '', 'Cumple la misma función que una armadura de netherita.', '', '/images/arqueoterra/items/luminis_core.png', '["/images/arqueoterra/docs/ueoh8j28iavg.png"]', 'published', 20, 1784235902593, 1784369485194, 'Mejora de netherita.'),
-    (313, 8, 'items-principales-22', 'Ítem principal 22', 'Objeto detectado en la lámina oficial; sus datos están pendientes de documentar.', 'La información oficial de este objeto todavía no está completada en ARQUEO TERRA DOCS.', '', NULL, '{}', '', '', '', '/images/arqueoterra/items-principales.png', '["/images/arqueoterra/items-principales.png"]', 'published', 21, 1784235902593, 1784235902593, ''),
-    (314, 8, 'items-principales-23', 'Ítem principal 23', 'Objeto detectado en la lámina oficial; sus datos están pendientes de documentar.', 'La información oficial de este objeto todavía no está completada en ARQUEO TERRA DOCS.', '', NULL, '{}', '', '', '', '/images/arqueoterra/items-principales.png', '["/images/arqueoterra/items-principales.png"]', 'published', 22, 1784235902593, 1784235902593, ''),
-    (315, 8, 'items-principales-24', 'Ítem principal 24', 'Objeto detectado en la lámina oficial; sus datos están pendientes de documentar.', 'La información oficial de este objeto todavía no está completada en ARQUEO TERRA DOCS.', '', NULL, '{}', '', '', '', '/images/arqueoterra/items-principales.png', '["/images/arqueoterra/items-principales.png"]', 'published', 23, 1784235902593, 1784235902593, ''),
-    (316, 8, 'items-principales-25', 'Ítem principal 25', 'Objeto detectado en la lámina oficial; sus datos están pendientes de documentar.', 'La información oficial de este objeto todavía no está completada en ARQUEO TERRA DOCS.', '', NULL, '{}', '', '', '', '/images/arqueoterra/items-principales.png', '["/images/arqueoterra/items-principales.png"]', 'published', 24, 1784235902593, 1784235902593, ''),
-    (317, 8, 'items-principales-26', 'Ítem principal 26', 'Objeto detectado en la lámina oficial; sus datos están pendientes de documentar.', 'La información oficial de este objeto todavía no está completada en ARQUEO TERRA DOCS.', '', NULL, '{}', '', '', '', '/images/arqueoterra/items-principales.png', '["/images/arqueoterra/items-principales.png"]', 'published', 25, 1784235902593, 1784235902593, ''),
-    (318, 8, 'items-principales-27', 'Ítem principal 27', 'Objeto detectado en la lámina oficial; sus datos están pendientes de documentar.', 'La información oficial de este objeto todavía no está completada en ARQUEO TERRA DOCS.', '', NULL, '{}', '', '', '', '/images/arqueoterra/items-principales.png', '["/images/arqueoterra/items-principales.png"]', 'published', 26, 1784235902593, 1784235902593, ''),
-    (319, 8, 'pergaminos-de-mejora-01', 'Pergamino desconocido', 'Contenedor que entrega pergaminos de mejora aleatorios.', 'Contenedor que entrega pergaminos de mejora aleatorios.', 'Puede encontrarse en cualquier estructura y entrega pergaminos de mejora aleatorios.', NULL, '{}', '', '', '', '/images/arqueoterra/docs/rdsya8vzhyam.png', '["/images/arqueoterra/docs/rdsya8vzhyam.png"]', 'published', 101, 1784235902622, 1784235902622, ''),
-    (320, 8, 'pergaminos-de-mejora-02', 'Mejora de armadura', 'Pergamino que mejora tu armadura.', 'Pergamino que mejora tu armadura.', 'Mejora la armadura.', NULL, '{}', '', '', '', '/images/arqueoterra/docs/r7v49tlhrf1g.png', '["/images/arqueoterra/docs/r7v49tlhrf1g.png"]', 'published', 102, 1784235902622, 1784235902622, ''),
-    (321, 8, 'pergaminos-de-mejora-03', 'Mejora de velocidad de ataque', 'Pergamino que mejora la velocidad de ataque.', 'Un pergamino que mejora la velocidad de ataque.', '', NULL, '{}', '', '', '', '/images/arqueoterra/docs/pdibi55snvah.png', '["/images/arqueoterra/docs/pdibi55snvah.png"]', 'published', 103, 1784235902623, 1784235902623, ''),
-    (322, 8, 'pergaminos-de-mejora-04', 'Pergamino de Mejora 04', 'Objeto detectado en la lámina oficial; sus datos están pendientes de documentar.', 'La información oficial de este objeto todavía no está completada en ARQUEO TERRA DOCS.', '', NULL, '{}', '', '', '', '/images/arqueoterra/pergaminos-de-mejora.png', '["/images/arqueoterra/pergaminos-de-mejora.png"]', 'published', 104, 1784235902623, 1784235902623, ''),
-    (323, 8, 'pergaminos-de-mejora-05', 'Pergamino de Mejora 05', 'Objeto detectado en la lámina oficial; sus datos están pendientes de documentar.', 'La información oficial de este objeto todavía no está completada en ARQUEO TERRA DOCS.', '', NULL, '{}', '', '', '', '/images/arqueoterra/pergaminos-de-mejora.png', '["/images/arqueoterra/pergaminos-de-mejora.png"]', 'published', 105, 1784235902623, 1784235902623, ''),
-    (324, 8, 'pergaminos-de-mejora-06', 'Pergamino de Mejora 06', 'Objeto detectado en la lámina oficial; sus datos están pendientes de documentar.', 'La información oficial de este objeto todavía no está completada en ARQUEO TERRA DOCS.', '', NULL, '{}', '', '', '', '/images/arqueoterra/pergaminos-de-mejora.png', '["/images/arqueoterra/pergaminos-de-mejora.png"]', 'published', 106, 1784235902623, 1784235902623, ''),
-    (325, 8, 'pergaminos-de-mejora-07', 'Pergamino de Mejora 07', 'Objeto detectado en la lámina oficial; sus datos están pendientes de documentar.', 'La información oficial de este objeto todavía no está completada en ARQUEO TERRA DOCS.', '', NULL, '{}', '', '', '', '/images/arqueoterra/pergaminos-de-mejora.png', '["/images/arqueoterra/pergaminos-de-mejora.png"]', 'published', 107, 1784235902623, 1784235902623, ''),
-    (326, 8, 'pergaminos-de-mejora-08', 'Pergamino de Mejora 08', 'Objeto detectado en la lámina oficial; sus datos están pendientes de documentar.', 'La información oficial de este objeto todavía no está completada en ARQUEO TERRA DOCS.', '', NULL, '{}', '', '', '', '/images/arqueoterra/pergaminos-de-mejora.png', '["/images/arqueoterra/pergaminos-de-mejora.png"]', 'published', 108, 1784235902623, 1784235902623, ''),
-    (327, 8, 'pergaminos-de-mejora-09', 'Pergamino de Mejora 09', 'Objeto detectado en la lámina oficial; sus datos están pendientes de documentar.', 'La información oficial de este objeto todavía no está completada en ARQUEO TERRA DOCS.', '', NULL, '{}', '', '', '', '/images/arqueoterra/pergaminos-de-mejora.png', '["/images/arqueoterra/pergaminos-de-mejora.png"]', 'published', 109, 1784235902623, 1784235902623, ''),
-    (328, 8, 'pergaminos-de-mejora-10', 'Pergamino de Mejora 10', 'Objeto detectado en la lámina oficial; sus datos están pendientes de documentar.', 'La información oficial de este objeto todavía no está completada en ARQUEO TERRA DOCS.', '', NULL, '{}', '', '', '', '/images/arqueoterra/pergaminos-de-mejora.png', '["/images/arqueoterra/pergaminos-de-mejora.png"]', 'published', 110, 1784235902623, 1784235902623, ''),
-    (329, 8, 'pergaminos-de-mejora-11', 'Pergamino de Mejora 11', 'Objeto detectado en la lámina oficial; sus datos están pendientes de documentar.', 'La información oficial de este objeto todavía no está completada en ARQUEO TERRA DOCS.', '', NULL, '{}', '', '', '', '/images/arqueoterra/pergaminos-de-mejora.png', '["/images/arqueoterra/pergaminos-de-mejora.png"]', 'published', 111, 1784235902623, 1784235902623, ''),
-    (330, 8, 'pergaminos-de-mejora-12', 'Pergamino de Mejora 12', 'Objeto detectado en la lámina oficial; sus datos están pendientes de documentar.', 'La información oficial de este objeto todavía no está completada en ARQUEO TERRA DOCS.', '', NULL, '{}', '', '', '', '/images/arqueoterra/pergaminos-de-mejora.png', '["/images/arqueoterra/pergaminos-de-mejora.png"]', 'published', 112, 1784235902623, 1784235902623, ''),
-    (331, 8, 'pergaminos-de-mejora-13', 'Pergamino de Mejora 13', 'Objeto detectado en la lámina oficial; sus datos están pendientes de documentar.', 'La información oficial de este objeto todavía no está completada en ARQUEO TERRA DOCS.', '', NULL, '{}', '', '', '', '/images/arqueoterra/pergaminos-de-mejora.png', '["/images/arqueoterra/pergaminos-de-mejora.png"]', 'published', 113, 1784235902623, 1784235902623, ''),
-    (332, 8, 'pergaminos-de-mejora-14', 'Pergamino de Mejora 14', 'Objeto detectado en la lámina oficial; sus datos están pendientes de documentar.', 'La información oficial de este objeto todavía no está completada en ARQUEO TERRA DOCS.', '', NULL, '{}', '', '', '', '/images/arqueoterra/pergaminos-de-mejora.png', '["/images/arqueoterra/pergaminos-de-mejora.png"]', 'published', 114, 1784235902623, 1784235902623, ''),
-    (333, 8, 'pergaminos-de-mejora-15', 'Pergamino de Mejora 15', 'Objeto detectado en la lámina oficial; sus datos están pendientes de documentar.', 'La información oficial de este objeto todavía no está completada en ARQUEO TERRA DOCS.', '', NULL, '{}', '', '', '', '/images/arqueoterra/pergaminos-de-mejora.png', '["/images/arqueoterra/pergaminos-de-mejora.png"]', 'published', 115, 1784235902623, 1784235902623, ''),
-    (334, 8, 'pergaminos-de-mejora-16', 'Pergamino de Mejora 16', 'Objeto detectado en la lámina oficial; sus datos están pendientes de documentar.', 'La información oficial de este objeto todavía no está completada en ARQUEO TERRA DOCS.', '', NULL, '{}', '', '', '', '/images/arqueoterra/pergaminos-de-mejora.png', '["/images/arqueoterra/pergaminos-de-mejora.png"]', 'published', 116, 1784235902623, 1784235902623, ''),
-    (335, 8, 'pergaminos-de-mejora-17', 'Pergamino de Mejora 17', 'Objeto detectado en la lámina oficial; sus datos están pendientes de documentar.', 'La información oficial de este objeto todavía no está completada en ARQUEO TERRA DOCS.', '', NULL, '{}', '', '', '', '/images/arqueoterra/pergaminos-de-mejora.png', '["/images/arqueoterra/pergaminos-de-mejora.png"]', 'published', 117, 1784235902623, 1784235902623, ''),
-    (336, 8, 'pergaminos-de-mejora-18', 'Pergamino de Mejora 18', 'Objeto detectado en la lámina oficial; sus datos están pendientes de documentar.', 'La información oficial de este objeto todavía no está completada en ARQUEO TERRA DOCS.', '', NULL, '{}', '', '', '', '/images/arqueoterra/pergaminos-de-mejora.png', '["/images/arqueoterra/pergaminos-de-mejora.png"]', 'published', 118, 1784235902623, 1784235902623, ''),
-    (337, 8, 'pergaminos-de-mejora-19', 'Pergamino de Mejora 19', 'Objeto detectado en la lámina oficial; sus datos están pendientes de documentar.', 'La información oficial de este objeto todavía no está completada en ARQUEO TERRA DOCS.', '', NULL, '{}', '', '', '', '/images/arqueoterra/pergaminos-de-mejora.png', '["/images/arqueoterra/pergaminos-de-mejora.png"]', 'published', 119, 1784235902623, 1784235902623, ''),
-    (338, 8, 'pergaminos-de-mejora-20', 'Pergamino de Mejora 20', 'Objeto detectado en la lámina oficial; sus datos están pendientes de documentar.', 'La información oficial de este objeto todavía no está completada en ARQUEO TERRA DOCS.', '', NULL, '{}', '', '', '', '/images/arqueoterra/pergaminos-de-mejora.png', '["/images/arqueoterra/pergaminos-de-mejora.png"]', 'published', 120, 1784235902623, 1784235902623, ''),
-    (339, 8, 'pergaminos-de-mejora-21', 'Pergamino de Mejora 21', 'Objeto detectado en la lámina oficial; sus datos están pendientes de documentar.', 'La información oficial de este objeto todavía no está completada en ARQUEO TERRA DOCS.', '', NULL, '{}', '', '', '', '/images/arqueoterra/pergaminos-de-mejora.png', '["/images/arqueoterra/pergaminos-de-mejora.png"]', 'published', 121, 1784235902623, 1784235902623, ''),
-    (340, 8, 'pergaminos-de-mejora-22', 'Pergamino de Mejora 22', 'Objeto detectado en la lámina oficial; sus datos están pendientes de documentar.', 'La información oficial de este objeto todavía no está completada en ARQUEO TERRA DOCS.', '', NULL, '{}', '', '', '', '/images/arqueoterra/pergaminos-de-mejora.png', '["/images/arqueoterra/pergaminos-de-mejora.png"]', 'published', 122, 1784235902623, 1784235902623, ''),
-    (341, 8, 'pergaminos-de-mejora-23', 'Pergamino de Mejora 23', 'Objeto detectado en la lámina oficial; sus datos están pendientes de documentar.', 'La información oficial de este objeto todavía no está completada en ARQUEO TERRA DOCS.', '', NULL, '{}', '', '', '', '/images/arqueoterra/pergaminos-de-mejora.png', '["/images/arqueoterra/pergaminos-de-mejora.png"]', 'published', 123, 1784235902623, 1784235902623, ''),
-    (342, 8, 'pergaminos-de-mejora-24', 'Pergamino de Mejora 24', 'Objeto detectado en la lámina oficial; sus datos están pendientes de documentar.', 'La información oficial de este objeto todavía no está completada en ARQUEO TERRA DOCS.', '', NULL, '{}', '', '', '', '/images/arqueoterra/pergaminos-de-mejora.png', '["/images/arqueoterra/pergaminos-de-mejora.png"]', 'published', 124, 1784235902623, 1784235902623, ''),
-    (343, 8, 'pergaminos-de-mejora-25', 'Pergamino de Mejora 25', 'Objeto detectado en la lámina oficial; sus datos están pendientes de documentar.', 'La información oficial de este objeto todavía no está completada en ARQUEO TERRA DOCS.', '', NULL, '{}', '', '', '', '/images/arqueoterra/pergaminos-de-mejora.png', '["/images/arqueoterra/pergaminos-de-mejora.png"]', 'published', 125, 1784235902623, 1784235902623, ''),
-    (344, 8, 'pergaminos-de-mejora-26', 'Pergamino de Mejora 26', 'Objeto detectado en la lámina oficial; sus datos están pendientes de documentar.', 'La información oficial de este objeto todavía no está completada en ARQUEO TERRA DOCS.', '', NULL, '{}', '', '', '', '/images/arqueoterra/pergaminos-de-mejora.png', '["/images/arqueoterra/pergaminos-de-mejora.png"]', 'published', 126, 1784235902623, 1784235902623, ''),
-    (345, 8, 'pergaminos-de-mejora-27', 'Pergamino de Mejora 27', 'Objeto detectado en la lámina oficial; sus datos están pendientes de documentar.', 'La información oficial de este objeto todavía no está completada en ARQUEO TERRA DOCS.', '', NULL, '{}', '', '', '', '/images/arqueoterra/pergaminos-de-mejora.png', '["/images/arqueoterra/pergaminos-de-mejora.png"]', 'published', 127, 1784235902623, 1784235902623, ''),
-    (346, 8, 'pergaminos-de-mejora-28', 'Pergamino de Mejora 28', 'Objeto detectado en la lámina oficial; sus datos están pendientes de documentar.', 'La información oficial de este objeto todavía no está completada en ARQUEO TERRA DOCS.', '', NULL, '{}', '', '', '', '/images/arqueoterra/pergaminos-de-mejora.png', '["/images/arqueoterra/pergaminos-de-mejora.png"]', 'published', 128, 1784235902623, 1784235902623, ''),
-    (347, 8, 'pergaminos-de-mejora-29', 'Pergamino de Mejora 29', 'Objeto detectado en la lámina oficial; sus datos están pendientes de documentar.', 'La información oficial de este objeto todavía no está completada en ARQUEO TERRA DOCS.', '', NULL, '{}', '', '', '', '/images/arqueoterra/pergaminos-de-mejora.png', '["/images/arqueoterra/pergaminos-de-mejora.png"]', 'published', 129, 1784235902623, 1784235902623, ''),
-    (348, 8, 'pergaminos-de-mejora-30', 'Pergamino de Mejora 30', 'Objeto detectado en la lámina oficial; sus datos están pendientes de documentar.', 'La información oficial de este objeto todavía no está completada en ARQUEO TERRA DOCS.', '', NULL, '{}', '', '', '', '/images/arqueoterra/pergaminos-de-mejora.png', '["/images/arqueoterra/pergaminos-de-mejora.png"]', 'published', 130, 1784235902623, 1784235902623, ''),
-    (349, 8, 'pergaminos-de-mejora-31', 'Pergamino de Mejora 31', 'Objeto detectado en la lámina oficial; sus datos están pendientes de documentar.', 'La información oficial de este objeto todavía no está completada en ARQUEO TERRA DOCS.', '', NULL, '{}', '', '', '', '/images/arqueoterra/pergaminos-de-mejora.png', '["/images/arqueoterra/pergaminos-de-mejora.png"]', 'published', 131, 1784235902623, 1784235902623, ''),
-    (350, 8, 'pergaminos-de-mejora-32', 'Pergamino de Mejora 32', 'Objeto detectado en la lámina oficial; sus datos están pendientes de documentar.', 'La información oficial de este objeto todavía no está completada en ARQUEO TERRA DOCS.', '', NULL, '{}', '', '', '', '/images/arqueoterra/pergaminos-de-mejora.png', '["/images/arqueoterra/pergaminos-de-mejora.png"]', 'published', 132, 1784235902623, 1784235902623, ''),
-    (351, 8, 'pergaminos-de-mejora-33', 'Pergamino de Mejora 33', 'Objeto detectado en la lámina oficial; sus datos están pendientes de documentar.', 'La información oficial de este objeto todavía no está completada en ARQUEO TERRA DOCS.', '', NULL, '{}', '', '', '', '/images/arqueoterra/pergaminos-de-mejora.png', '["/images/arqueoterra/pergaminos-de-mejora.png"]', 'published', 133, 1784235902623, 1784235902623, ''),
-    (352, 8, 'discos-extras-01', 'Disco Extra 01', 'Disco extra obtenible mediante comerciantes ambulantes.', 'Disco extra obtenible mediante comerciantes ambulantes.', '', NULL, '{}', 'Todos los discos extra se obtienen de comerciantes ambulantes.', '', '', '/images/arqueoterra/discos-extras.png', '["/images/arqueoterra/discos-extras.png"]', 'published', 201, 1784235902636, 1784235902636, ''),
-    (353, 8, 'discos-extras-02', 'Disco Extra 02', 'Disco extra obtenible mediante comerciantes ambulantes.', 'Disco extra obtenible mediante comerciantes ambulantes.', '', NULL, '{}', 'Todos los discos extra se obtienen de comerciantes ambulantes.', '', '', '/images/arqueoterra/discos-extras.png', '["/images/arqueoterra/discos-extras.png"]', 'published', 202, 1784235902636, 1784235902636, ''),
-    (354, 8, 'discos-extras-03', 'Disco Extra 03', 'Disco extra obtenible mediante comerciantes ambulantes.', 'Disco extra obtenible mediante comerciantes ambulantes.', '', NULL, '{}', 'Todos los discos extra se obtienen de comerciantes ambulantes.', '', '', '/images/arqueoterra/discos-extras.png', '["/images/arqueoterra/discos-extras.png"]', 'published', 203, 1784235902636, 1784235902636, ''),
-    (355, 8, 'discos-extras-04', 'Disco Extra 04', 'Disco extra obtenible mediante comerciantes ambulantes.', 'Disco extra obtenible mediante comerciantes ambulantes.', '', NULL, '{}', 'Todos los discos extra se obtienen de comerciantes ambulantes.', '', '', '/images/arqueoterra/discos-extras.png', '["/images/arqueoterra/discos-extras.png"]', 'published', 204, 1784235902636, 1784235902636, ''),
-    (356, 8, 'discos-extras-05', 'Disco Extra 05', 'Disco extra obtenible mediante comerciantes ambulantes.', 'Disco extra obtenible mediante comerciantes ambulantes.', '', NULL, '{}', 'Todos los discos extra se obtienen de comerciantes ambulantes.', '', '', '/images/arqueoterra/discos-extras.png', '["/images/arqueoterra/discos-extras.png"]', 'published', 205, 1784235902636, 1784315960887, ''),
-    (357, 8, 'discos-extras-06', 'Disco Extra 06', 'Disco extra obtenible mediante comerciantes ambulantes.', 'Disco extra obtenible mediante comerciantes ambulantes.', '', NULL, '{}', 'Todos los discos extra se obtienen de comerciantes ambulantes.', '', '', '/images/arqueoterra/discos-extras.png', '["/images/arqueoterra/discos-extras.png"]', 'published', 206, 1784235902636, 1784235902636, ''),
-    (358, 8, 'discos-extras-07', 'Disco Extra 07', 'Disco extra obtenible mediante comerciantes ambulantes.', 'Disco extra obtenible mediante comerciantes ambulantes.', '', NULL, '{}', 'Todos los discos extra se obtienen de comerciantes ambulantes.', '', '', '/images/arqueoterra/discos-extras.png', '["/images/arqueoterra/discos-extras.png"]', 'published', 207, 1784235902636, 1784235902636, ''),
-    (359, 8, 'discos-extras-08', 'Disco Extra 08', 'Disco extra obtenible mediante comerciantes ambulantes.', 'Disco extra obtenible mediante comerciantes ambulantes.', '', NULL, '{}', 'Todos los discos extra se obtienen de comerciantes ambulantes.', '', '', '/images/arqueoterra/discos-extras.png', '["/images/arqueoterra/discos-extras.png"]', 'published', 208, 1784235902636, 1784235902636, ''),
-    (360, 8, 'discos-extras-09', 'Disco Extra 09', 'Disco extra obtenible mediante comerciantes ambulantes.', 'Disco extra obtenible mediante comerciantes ambulantes.', '', NULL, '{}', 'Todos los discos extra se obtienen de comerciantes ambulantes.', '', '', '/images/arqueoterra/discos-extras.png', '["/images/arqueoterra/discos-extras.png"]', 'published', 209, 1784235902637, 1784235902637, ''),
-    (361, 8, 'discos-extras-10', 'Disco Extra 10', 'Disco extra obtenible mediante comerciantes ambulantes.', 'Disco extra obtenible mediante comerciantes ambulantes.', '', NULL, '{}', 'Todos los discos extra se obtienen de comerciantes ambulantes.', '', '', '/images/arqueoterra/discos-extras.png', '["/images/arqueoterra/discos-extras.png"]', 'published', 210, 1784235902637, 1784235902637, ''),
-    (362, 8, 'discos-extras-11', 'Disco Extra 11', 'Disco extra obtenible mediante comerciantes ambulantes.', 'Disco extra obtenible mediante comerciantes ambulantes.', '', NULL, '{}', 'Todos los discos extra se obtienen de comerciantes ambulantes.', '', '', '/images/arqueoterra/discos-extras.png', '["/images/arqueoterra/discos-extras.png"]', 'published', 211, 1784235902637, 1784235902637, ''),
-    (363, 8, 'discos-extras-12', 'Disco Extra 12', 'Disco extra obtenible mediante comerciantes ambulantes.', 'Disco extra obtenible mediante comerciantes ambulantes.', '', NULL, '{}', 'Todos los discos extra se obtienen de comerciantes ambulantes.', '', '', '/images/arqueoterra/discos-extras.png', '["/images/arqueoterra/discos-extras.png"]', 'published', 212, 1784235902637, 1784235902637, ''),
-    (364, 8, 'discos-extras-13', 'Disco Extra 13', 'Disco extra obtenible mediante comerciantes ambulantes.', 'Disco extra obtenible mediante comerciantes ambulantes.', '', NULL, '{}', 'Todos los discos extra se obtienen de comerciantes ambulantes.', '', '', '/images/arqueoterra/discos-extras.png', '["/images/arqueoterra/discos-extras.png"]', 'published', 213, 1784235902637, 1784235902637, ''),
-    (365, 8, 'discos-extras-14', 'Disco Extra 14', 'Disco extra obtenible mediante comerciantes ambulantes.', 'Disco extra obtenible mediante comerciantes ambulantes.', '', NULL, '{}', 'Todos los discos extra se obtienen de comerciantes ambulantes.', '', '', '/images/arqueoterra/discos-extras.png', '["/images/arqueoterra/discos-extras.png"]', 'published', 214, 1784235902637, 1784235902637, ''),
-    (366, 8, 'discos-extras-15', 'Disco Extra 15', 'Disco extra obtenible mediante comerciantes ambulantes.', 'Disco extra obtenible mediante comerciantes ambulantes.', '', NULL, '{}', 'Todos los discos extra se obtienen de comerciantes ambulantes.', '', '', '/images/arqueoterra/discos-extras.png', '["/images/arqueoterra/discos-extras.png"]', 'published', 215, 1784235902637, 1784235902637, ''),
-    (367, 8, 'discos-extras-16', 'Disco Extra 16', 'Disco extra obtenible mediante comerciantes ambulantes.', 'Disco extra obtenible mediante comerciantes ambulantes.', '', NULL, '{}', 'Todos los discos extra se obtienen de comerciantes ambulantes.', '', '', '/images/arqueoterra/discos-extras.png', '["/images/arqueoterra/discos-extras.png"]', 'published', 216, 1784235902637, 1784235902637, ''),
+    (297, 8, 'items-principales-06', 'Corazón Flamígero', 'Ingrediente que puede aparecer en fortalezas del Nether.', 'Un ítem que puedes encontrar en fortalezas del Nether.
+
+Es el ingrediente principal del Amuleto de Fundición.', '', NULL, '{}', 'Tiene una probabilidad de aparecer en los cofres de fortalezas del Nether.', 'Fabricación del Amuleto de Fundición', '', '/images/arqueoterra/items/blazing_heart.gif', '[]', 'published', 5, 1784235902593, 1784648181030, ''),
+    (298, 8, 'items-principales-07', 'Códice Alquímico', 'Ingrediente que puede aparecer en ciudades del End.', 'Un ítem que puedes encontrar en ciudades del End.
+
+Es el ingrediente principal del Amuleto del Alquimista.', '', NULL, '{}', 'Tiene una probabilidad de aparecer en los cofres de ciudades del End.', 'Fabricación del Amuleto del Alquimista.', '', '/images/arqueoterra/items/alchemist_tome.png', '[]', 'published', 6, 1784235902593, 1784648239944, ''),
+    (299, 8, 'items-principales-08', 'Plata Élfica', 'Ingrediente que puede aparecer en minas abandonadas.', 'Un ítem que puedes encontrar en mineshafts.
+
+Es el ingrediente principal del Amuleto del Forjador.', '', NULL, '{}', 'Tiene una probabilidad de aparecer en los cofres de mineshafts.', 'Fabricación del Amuleto del Forjador.', '', '/images/arqueoterra/items/silver_plates.png', '[]', 'published', 7, 1784235902593, 1784648467588, ''),
+    (300, 8, 'items-principales-09', 'Recipiente de Amuleto', 'Base de fabricación para crear amuletos especiales.', 'Un recipiente que sirve como base para crear nuevos tipos de amuletos especiales.', '', NULL, '{}', 'Crafteo mostrado en la documentación oficial.', 'Ingrediente para la fabricación de amuletos.', '', '/images/arqueoterra/items/empty_amulet.png', '[]', 'published', 8, 1784235902593, 1784648552964, ''),
+    (301, 8, 'items-principales-10', 'Amuleto del Prospector', 'Amuleto que añade un nivel extra de Fortuna.', 'Uno de los distintos tipos de amuletos. Este potencia tu nivel de Fortuna cuando lo equipas en la mano secundaria.', '', NULL, '{"Nivel de Fortuna":"+1","Especial":"Soulbound"}', 'Se crea únicamente en yunques.', '', '', '/images/arqueoterra/items/fortune_amulet.png', '[]', 'published', 9, 1784235902593, 1784656041585, 'Tenerlo en la mano secundaria.'),
+    (302, 8, 'items-principales-11', 'Amuleto del Saqueador', 'Amuleto que añade un nivel extra de Saqueo.', 'Uno de los distintos tipos de amuletos. Este potencia tu nivel de Saqueo cuando lo equipas en la mano secundaria.', '', NULL, '{"Nivel de Saqueo":"+1","Especial":"Soulbound"}', 'Se crea únicamente en yunques.', '', '', '/images/arqueoterra/items/looting_amulet.png', '[]', 'published', 10, 1784235902593, 1784656083557, 'Tenerlo en la mano secundaria.'),
+    (303, 8, 'items-principales-12', 'Amuleto de Fundición', 'Amuleto que funde automáticamente materiales obtenidos.', 'Uno de los distintos tipos de amuletos. Este funde los bloques minados y los objetos soltados al matar mobs, siempre que tengan versión cocinada y se equipe en la mano secundaria.', '', NULL, '{"Especial":"Soulbound"}', 'Se crea únicamente en yunques.', '', '', '/images/arqueoterra/items/smelt_amulet.png', '[]', 'published', 11, 1784235902593, 1784656096615, 'Tenerlo en la mano secundaria.'),
+    (304, 8, 'items-principales-13', 'Amuleto del Alquimista', 'Amuleto que cambia la duración de los efectos.', 'Uno de los distintos tipos de amuletos. Este duplica la duración de efectos de poción positivos y reduce a la mitad la duración de efectos de poción negativos si se equipa en la mano secundaria.', '', NULL, '{"Especial":"Soulbound"}', 'Se crea únicamente en yunques.', '', '', '/images/arqueoterra/items/potion_amulet.png', '[]', 'published', 12, 1784235902593, 1784656108573, 'Tenerlo en la mano secundaria.'),
+    (305, 8, 'items-principales-14', 'Amuleto del Forjador', 'Amuleto que reduce el desgaste de herramientas y armadura.', 'Uno de los distintos tipos de amuletos. Este reduce el daño de durabilidad que reciben la armadura y herramientas usadas por el jugador si se equipa en la mano secundaria.', '', NULL, '{"Especial":"Soulbound"}', 'Se crea únicamente en yunques.', '', '', '/images/arqueoterra/items/forge_amulet.png', '[]', 'published', 13, 1784235902593, 1784656120932, 'Tenerlo en la mano secundaria.'),
+    (306, 8, 'items-principales-15', 'Diseño de armadura vacío', 'Elimina diseños de armadura aplicados anteriormente.', 'Con este objeto puedes quitar diseños de armadura, con pedernal como material para eliminar el anterior.', '', NULL, '{}', '', '', '', '/images/arqueoterra/items/empty_trim_smithing_template.png', '[]', 'published', 18, 1784235902593, 1784653892588, 'Pedernal y mesa de herrería.'),
+    (307, 8, 'items-principales-16', 'Tinta Invisible', 'Tinta capaz de hacer invisibles las armaduras.', 'Una tinta capaz de hacer invisible las armaduras. 
+
+Se combina con cualquier armadura en un yunque con la tinta.
+
+Se puede quitar la tinta invisible a una armadura con un caldero con agua.', '', NULL, '{}', '', 'Hacer invisible las armaduras.', '', '/images/arqueoterra/items/invisible_ink.png', '[]', 'published', 20, 1784235902593, 1784653865255, ''),
+    (308, 8, 'otros-cambios-02', 'Tarjeta de Modelo', 'Objeto pendiente de documentación oficial.', 'Objeto pendiente de documentación oficial.', '', NULL, '{}', '', '', '', '/images/arqueoterra/items/model_card.png', '[]', 'published', 416, 1784235902593, 1784655672752, ''),
+    (309, 8, 'items-principales-18', 'Reliquia de Viento', 'Material exclusivo de las Trial Chambers.', 'Un ingrediente exclusivo de las Trial Chambers. Es utilizado para crear el Tridente Vendaval.', '', NULL, '{}', 'Se obtiene en Ominous Vaults.', 'Ingrediente del Tridente Vendaval.', 'El drop de este objeto es más raro que el Heavy Core. ¡Suerte!', '/images/arqueoterra/items/wind_relic.gif', '[]', 'published', 14, 1784235902593, 1784654115683, ''),
+    (310, 8, 'items-principales-19', 'Tridente Vendaval', 'Tridente con la habilidad de alejar a los enemigos o volar sin agua.', 'Este tridente tiene dos habilidades:
+
+
+
+Si está encantado con Riptide:
+
+El tridente, a cambio de 2 Wind Charges, puede impulsar al portador como si estuviera en agua, entrando en un cooldown de 6 segundos. En caso de estar en contacto con agua o lluvia, no consumirá Wind Charges y funcionará como un tridente normal.
+
+
+
+Si no está encantado con Riptide:
+
+Al impactar contra el suelo o contra un mob, genera una explosión de viento que empuja a las entidades cercanas que no sean el lanzador.', '', NULL, '{}', '', '', '', '/images/arqueoterra/items/wind_trident.gif', '[]', 'published', 15, 1784235902593, 1784654546522, ''),
+    (312, 8, 'items-principales-21', 'Núcleo de Luminis', 'Variante de netherite para fabricar armaduras Luminis.', 'Es un ingrediente, equivalente al lingote de netherite. Se usa para mejorar armaduras de diamante a armaduras de Luminis.', '', NULL, '{}', '', 'Mejorar armadura de diamante a armadura de Luminis.', '', '/images/arqueoterra/items/luminis_core.png', '[]', 'published', 16, 1784235902593, 1784654693087, 'Mejora de netherite.'),
+    (313, 8, 'items-principales-22', 'Armadura de Luminis', 'Nuevo set de armadura, equivalente a netherite.', 'Esta armadura es equivalente a la armadura de netherite, cambiando solo el color.', 'No solo es blanca, ¡se puede tintar al igual que una de cuero!', NULL, '{"Estadísticas":"Igual que Netherite"}', '', 'Puede ser tintada en una mesa de trabajo.', 'Si quieres eliminar el tinte de la armadura, puedes usar un caldero con agua al igual que con cuero.', '/images/arqueoterra/items/luminis_armor.png', '[]', 'published', 17, 1784235902593, 1784655197021, ''),
+    (319, 8, 'pergaminos-de-mejora-01', 'Pergamino Desconocido', 'Puede ser cualquiera de los pergaminos de mejora.', 'Al hacer click derecho, se identifica como uno de los pergaminos al azar.
+
+El tipo es completamente aleatorio, mientras que la calidad sigue las siguientes probabilidades:
+
+• Común: 50%
+
+• Raro: 30%
+
+• Épico: 15%
+
+• Legendario: 5%', '', NULL, '{}', 'En casi todos los cofres de estructuras, y especialmente probable en Trial Chambers.', '', '', '/images/arqueoterra/items/unidentified_scroll.gif', '[]', 'published', 101, 1784235902622, 1784656923043, ''),
+    (320, 8, 'pergaminos-de-mejora-02', 'Mejora de Armadura', 'Pergamino que mejora tu armadura.', 'Aplicable a: Armadura y Escudo
+
+Niveles:
+
+• Común: +0.25 Armadura
+
+• Raro: +0.5 Armadura
+
+• Épico: +0.75 Armadura
+
+• Legendario: +1 Armadura', '', NULL, '{}', '', 'Se utiliza dando click derecho al objeto en el inventario con el pergamino en el cursor.', '', '/images/arqueoterra/items/scroll/armor.png', '[]', 'published', 102, 1784235902622, 1784656968587, ''),
+    (321, 8, 'pergaminos-de-mejora-03', 'Mejora de Velocidad de Ataque', 'Pergamino que mejora la velocidad de ataque.', 'Aplicable a: Armas Melee
+
+Niveles:
+
+• Común: +2.5% Velocidad de Ataque
+
+• Raro: +5% Velocidad de Ataque
+
+• Épico: +7.5% Velocidad de Ataque
+
+• Legendario: +10% Velocidad de Ataque', '', NULL, '{}', '', 'Se utiliza dando click derecho al objeto en el inventario con el pergamino en el cursor.', '', '/images/arqueoterra/items/scroll/attack_speed.png', '[]', 'published', 103, 1784235902623, 1784656983612, ''),
+    (322, 8, 'pergaminos-de-mejora-04', 'Mejora de Daño', 'Pergamino que mejora tu daño de ataque.', 'Aplicable a: Armas Melee
+
+Niveles:
+
+• Común: +0.25 Daño de Ataque
+
+• Raro: +0.5 Daño de Ataque
+
+• Épico: +0.75 Daño de Ataque
+
+• Legendario: +1 Daño de Ataque', '', NULL, '{}', '', 'Se utiliza dando click derecho al objeto en el inventario con el pergamino en el cursor.', '', '/images/arqueoterra/items/scroll/damage.png', '[]', 'published', 104, 1784235902623, 1784657001307, ''),
+    (323, 8, 'pergaminos-de-mejora-05', 'Mejora de Vida', 'Pergamino que mejora tu vida máxima.', 'Aplicable a: Armadura y Escudo
+
+Niveles:
+
+• Común: +0.5 Vida Máxima
+
+• Raro: +1 Vida Máxima
+
+• Épico: +1.5 Vida Máxima
+
+• Legendario: +2 Vida Máxima', '', NULL, '{}', '', 'Se utiliza dando click derecho al objeto en el inventario con el pergamino en el cursor.', '', '/images/arqueoterra/items/scroll/health.png', '[]', 'published', 105, 1784235902623, 1784657027107, ''),
+    (324, 8, 'pergaminos-de-mejora-06', 'Mejora de Dureza', 'Pergamino que mejora tu dureza de armadura.', 'Aplicable a: Armadura y Escudo
+
+Niveles:
+
+• Común: +0.5 Dureza de Armadura
+
+• Raro: +1 Dureza de Armadura
+
+• Épico: +1.5 Dureza de Armadura
+
+• Legendario: +2 Dureza de Armadura', '', NULL, '{}', '', 'Se utiliza dando click derecho al objeto en el inventario con el pergamino en el cursor.', '', '/images/arqueoterra/items/scroll/toughness.png', '[]', 'published', 106, 1784235902623, 1784657079093, ''),
+    (325, 8, 'pergaminos-de-mejora-07', 'Mejora de Oxígeno', 'Pergamino que mejora tu oxígeno.', 'Aplicable a: Casco
+
+Niveles:
+
+• Común: +0.25 Oxígeno Extra
+
+• Raro: +0.5 Oxígeno Extra
+
+• Épico: +0.75 Oxígeno Extra
+
+• Legendario: +1 Oxígeno Extra', '', NULL, '{}', '', 'Se utiliza dando click derecho al objeto en el inventario con el pergamino en el cursor.', '', '/images/arqueoterra/items/scroll/oxygen.png', '[]', 'published', 107, 1784235902623, 1784657093851, ''),
+    (326, 8, 'pergaminos-de-mejora-08', 'Mejora de Velocidad', 'Pergamino que mejora tu velocidad de movimiento.', 'Aplicable a: Botas
+
+Niveles:
+
+• Común: +2.5% Velocidad de Movimiento
+
+• Raro: +5% Velocidad de Movimiento
+
+• Épico: +7.5% Velocidad de Movimiento
+
+• Legendario: +10% Velocidad de Movimiento', '', NULL, '{}', '', 'Se utiliza dando click derecho al objeto en el inventario con el pergamino en el cursor.', '', '/images/arqueoterra/items/scroll/speed.png', '[]', 'published', 108, 1784235902623, 1784657111445, ''),
+    (327, 8, 'pergaminos-de-mejora-09', 'Mejora de Experiencia', 'Pergamino que aumenta la experiencia recogida.', 'Aplicable a: Armadura y Escudo
+
+Niveles:
+
+• Común: +2.5% Bonus de Experiencia
+
+• Raro: +5% Bonus de Experiencia
+
+• Épico: +7.5% Bonus de Experiencia
+
+• Legendario: +10% Bonus de Experiencia', '', NULL, '{}', '', 'Se utiliza dando click derecho al objeto en el inventario con el pergamino en el cursor.', '', '/images/arqueoterra/items/scroll/experience.png', '[]', 'published', 109, 1784235902623, 1784657136459, ''),
+    (356, 8, 'otros-cambios-01', 'Nuevos Discos', 'Nuevos discos obtenibles mediante comerciantes ambulantes.', 'Hay nuevos discos, recopilando algunas piezas de videojuegos y series.', '', NULL, '{}', 'Todos los discos nuevos se obtienen de comerciantes ambulantes.', '', '', '/images/arqueoterra/items/disc_roaring_knight.png', '[]', 'published', 405, 1784235902636, 1784655637514, ''),
     (368, 8, 'polvos-de-minerales-01', 'Bolsa de Polvo', 'Almacena los polvos de minerales que encuentres.', 'Almacena los polvos de minerales que encuentres.', 'Almacena polvos de minerales sin límite.', NULL, '{}', 'Crafteo mostrado en la documentación oficial.', 'Guardar los polvos de minerales encontrados.', '', '/images/arqueoterra/items/ore_powder_bag.png', '[]', 'published', 301, 1784235902643, 1784375388121, ''),
-    (369, 8, 'polvos-de-minerales-02', 'Polvos de minerales', 'Los nueve tipos de minerales en forma de polvo.', 'Al minar una mena obtienes el polvo y el mineral.', 'La utilidad concreta está pendiente de documentación oficial.', NULL, '{}', 'Mina una mena: entrega el polvo y el mineral.', '', '', '/images/arqueoterra/polvos-de-minerales.png', '["/images/arqueoterra/polvos-de-minerales.png"]', 'published', 302, 1784235902643, 1784235902643, ''),
-    (370, 8, 'polvos-de-minerales-03', 'Polvo de Mineral 03', 'Objeto detectado en la lámina oficial; sus datos están pendientes de documentar.', 'La información oficial de este objeto todavía no está completada en ARQUEO TERRA DOCS.', '', NULL, '{}', '', '', '', '/images/arqueoterra/polvos-de-minerales.png', '["/images/arqueoterra/polvos-de-minerales.png"]', 'published', 303, 1784235902643, 1784235902643, ''),
-    (371, 8, 'polvos-de-minerales-04', 'Polvo de Mineral 04', 'Objeto detectado en la lámina oficial; sus datos están pendientes de documentar.', 'La información oficial de este objeto todavía no está completada en ARQUEO TERRA DOCS.', '', NULL, '{}', '', '', '', '/images/arqueoterra/polvos-de-minerales.png', '["/images/arqueoterra/polvos-de-minerales.png"]', 'published', 304, 1784235902643, 1784235902643, ''),
-    (372, 8, 'polvos-de-minerales-05', 'Polvo de Mineral 05', 'Objeto detectado en la lámina oficial; sus datos están pendientes de documentar.', 'La información oficial de este objeto todavía no está completada en ARQUEO TERRA DOCS.', '', NULL, '{}', '', '', '', '/images/arqueoterra/polvos-de-minerales.png', '["/images/arqueoterra/polvos-de-minerales.png"]', 'published', 305, 1784235902643, 1784235902643, ''),
-    (373, 8, 'polvos-de-minerales-06', 'Polvo de Mineral 06', 'Objeto detectado en la lámina oficial; sus datos están pendientes de documentar.', 'La información oficial de este objeto todavía no está completada en ARQUEO TERRA DOCS.', '', NULL, '{}', '', '', '', '/images/arqueoterra/polvos-de-minerales.png', '["/images/arqueoterra/polvos-de-minerales.png"]', 'published', 306, 1784235902643, 1784235902643, ''),
-    (374, 8, 'polvos-de-minerales-07', 'Polvo de Mineral 07', 'Objeto detectado en la lámina oficial; sus datos están pendientes de documentar.', 'La información oficial de este objeto todavía no está completada en ARQUEO TERRA DOCS.', '', NULL, '{}', '', '', '', '/images/arqueoterra/polvos-de-minerales.png', '["/images/arqueoterra/polvos-de-minerales.png"]', 'published', 307, 1784235902643, 1784235902643, ''),
-    (375, 8, 'polvos-de-minerales-08', 'Polvo de Mineral 08', 'Objeto detectado en la lámina oficial; sus datos están pendientes de documentar.', 'La información oficial de este objeto todavía no está completada en ARQUEO TERRA DOCS.', '', NULL, '{}', '', '', '', '/images/arqueoterra/polvos-de-minerales.png', '["/images/arqueoterra/polvos-de-minerales.png"]', 'published', 308, 1784235902643, 1784235902643, ''),
-    (376, 8, 'polvos-de-minerales-09', 'Polvo de Mineral 09', 'Objeto detectado en la lámina oficial; sus datos están pendientes de documentar.', 'La información oficial de este objeto todavía no está completada en ARQUEO TERRA DOCS.', '', NULL, '{}', '', '', '', '/images/arqueoterra/polvos-de-minerales.png', '["/images/arqueoterra/polvos-de-minerales.png"]', 'published', 309, 1784235902644, 1784235902644, ''),
-    (377, 8, 'polvos-de-minerales-10', 'Polvo de Mineral 10', 'Objeto detectado en la lámina oficial; sus datos están pendientes de documentar.', 'La información oficial de este objeto todavía no está completada en ARQUEO TERRA DOCS.', '', NULL, '{}', '', '', '', '/images/arqueoterra/polvos-de-minerales.png', '["/images/arqueoterra/polvos-de-minerales.png"]', 'published', 310, 1784235902644, 1784235902644, '')
+    (378, 8, 'polvos-de-minerales-02-2', 'Encantamiento: Pulverizing', 'Nuevo encantamiento para Ore Hunters.', 'Pulverizing es un encantamiento para picos. Es compatible con Fortuna, pero incompatible con Toque de Seda.
+
+Con este encantamiento, al minar el ore, siempre soltará un polvo de su respectivo tipo.', '', NULL, '{}', 'Mesa de encantamiento o libros encantados de aldeanos o cofres.', '', '', '/images/arqueoterra/items/Enchanted_Book.gif', '[]', 'published', 1, 1784618233987, 1784618233985, ''),
+    (379, 8, 'otros-cambios-03', 'Wandering Trader', 'Nuevos intercambios raros.', 'El Wandering Trader puede comerciar ahora lo siguiente:
+
+• Pergamino Desconocido (Siempre 3)
+
+• Bundle
+
+• Libro de Reparación
+
+• Armor Trim de Trail Ruins
+
+• Nuevo disco de música
+
+• Manzana Dorada Encantada (Poco probable)', '', NULL, '{}', '', '', '', '/images/arqueoterra/items/wandering.png', '[]', 'published', 403, 1784655617555, 1784655617553, ''),
+    (380, 8, 'otros-cambios-04', 'Muerte', 'Nuevo sistema de muerte.', 'Al morir, se genera una tumba, con la forma de tu cabeza, que contiene tus objetos. Al golpearla, todos los objetos volverán al lugar donde los tenías al morir. Si los objetos que tenías al golpear no caben en tu inventario, se genera flotando una bolsa con lo que falte, que al hacer click derecho soltará todos los objetos al suelo.
+
+Algunos objetos tienen un componente mágico llamado Soulbound, los cuales se pierden al morir.', 'Las tumbas despawnean después de ser cargadas 1 hora, perdiendo todos los objetos.', NULL, '{}', '', '', 'Intentad no dejar tumbas por posibilidad de lag.', '/images/arqueoterra/items/death_pouch.png', '[]', 'published', 401, 1784655945609, 1784655945609, ''),
+    (381, 8, 'otros-cambios-05', 'Dispensador de Elytra', 'Elytras individuales.', 'En cada barco de una ciudad del End hay un Dispensador de Elytra. Funciona similar a una Trial Vault, se puede hacer click derecho una vez por jugador para recolectar una Elytra cada uno.', '', NULL, '{}', '', '', '', '/images/arqueoterra/items/elytra_dispenser_side.png', '[]', 'published', 402, 1784657664897, 1784657664896, ''),
+    (382, 8, 'otros-cambios-06', 'Pociones', 'Nuevas recetas y nuevos efectos.', 'Los siguientes efectos vanilla ahora tienen receta:
+
+• Prisa Minera (Haste)
+
+• Ceguera
+
+• Nausea
+
+• Wither
+
+
+
+Se han añadido los siguientes efectos y pociones:
+
+• Oxidación
+
+• Disrupción de Curación', '', NULL, '{}', 'Todas las recetas están añadidas como imágenes.', '', '', '/images/arqueoterra/items/potions.png', '[]', 'published', 400, 1784657957266, 1784668002844, '')
 ON CONFLICT DO NOTHING;
 
 INSERT INTO "media_assets" ("id", "title", "url", "alt_text", "source_type", "mime_type", "created_by_id", "created_at") VALUES
@@ -256,7 +371,7 @@ INSERT INTO "media_assets" ("id", "title", "url", "alt_text", "source_type", "mi
 ON CONFLICT DO NOTHING;
 
 INSERT INTO "mods" ("id", "slug", "title", "short_description", "full_description", "server_purpose", "mechanics", "progression", "practical_notes", "category", "cover_image", "gallery", "featured", "status", "sort_order", "created_at", "updated_at") VALUES
-    (8, 'arqueoterra-smp-6', 'ArqueoTerraSMP 6', 'Guía oficial de los cuatro catálogos de objetos propios de ArqueoTerraSMP 6.', 'ArqueoTerraSMP 6 reúne los objetos propios del servidor en cuatro secciones: ítems principales, pergaminos de mejora, discos extras y polvos de minerales.', 'Centralizar todos los objetos creados para ArqueoTerraSMP 6 en una guía clara para jugadores.', 'Los amuletos se usan en la mano secundaria. Algunos materiales se consiguen explorando estructuras específicas y otros se crean en estaciones como el yunque o la mesa de herrería.', 'Empieza por los ítems principales. Después consulta los pergaminos de mejora, descubre los discos extra con comerciantes ambulantes y guarda los materiales en polvo.', 'Solo se muestran recetas cuando están confirmadas en la documentación oficial del mod.', 'Mod principal', '/images/arqueoterra/main/items.png', '["/images/arqueoterra/items-principales.png","/images/arqueoterra/pergaminos-de-mejora.png","/images/arqueoterra/discos-extras.png","/images/arqueoterra/polvos-de-minerales.png"]', 1, 'published', 1, 1784235902587, 1784298659827)
+    (8, 'arqueoterra-smp-6', 'ArqueoTerraSMP 6', 'Guía oficial de los cuatro catálogos de objetos propios de ArqueoTerraSMP 6.', 'ArqueoTerraSMP 6 reúne los objetos propios del servidor en cuatro secciones: Ítems Principales, Pergaminos de Mejora, Ore Hunters y Otros Cambios.', 'Centralizar todos los objetos creados para ArqueoTerraSMP 6 en una guía clara para jugadores.', 'Los amuletos se usan en la mano secundaria. Algunos materiales se consiguen explorando estructuras específicas y otros se crean en estaciones como el yunque o la mesa de herrería.', 'Empieza por los ítems principales. Después consulta los pergaminos de mejora. Luego tenemos la nueva implementación de Ore Hunters. Finalmente, y no por ello menos importante, otros cambios adicionales.', 'Se recomienda leer esta documentación cuando se tengan dudas, o incluso antes. Procura no preguntar de manera excesiva a administración por cosas escritas aquí.', 'Mod principal', '/images/arqueoterra/main/items.png', '[]', 1, 'published', 1, 1784235902587, 1784667760019)
 ON CONFLICT DO NOTHING;
 
 INSERT INTO "roles" ("id", "code", "name", "description") VALUES
